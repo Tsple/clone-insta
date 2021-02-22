@@ -1,0 +1,11 @@
+@import "common.css";
+@import "login.css";
+@import "reset.css";
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  background-color: #fafafa;
+  height: 100vh;
+}

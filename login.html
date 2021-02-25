@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Westagram</title>
+    <link rel="stylesheet" href="css/login.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/Instagram.ico" />
     <script
       src="https://kit.fontawesome.com/5c412fbd82.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/login.js" defer></script>
   </head>
   <body>
     <main class="main">
@@ -17,17 +20,22 @@
       </section>
       <section class="loginBox">
         <div class="loginMain">
-          <div class="loginTitle">
-            <span>Instagram</span>
-          </div>
+          <div class="loginTitle"></div>
           <form class="loginInput" action="">
             <input
-              id="login-email"
+              id="loginEmail"
               type="text"
               placeholder="전화번호, 사용자 이름 또는 이메일"
             />
-            <input id="login-password" type="text" placeholder="비밀번호" />
-            <button id="loginBtn">로그인</button>
+            <input id="loginPassword" type="password" placeholder="비밀번호" />
+
+            <button
+              type="button"
+              id="loginBtn"
+              onclick="location.href='main.html' "
+            >
+              로그인
+            </button>
           </form>
           <div class="divider"></div>
           <div class="facebook">

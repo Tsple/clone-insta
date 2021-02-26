@@ -20,7 +20,7 @@ If your screen width is under 800px, The image disappears
 
 ## 3. LikeCount
 
-<img src="img/like.gif" width=300px>
+<img src="img/like.gif" width=600px>
 
 underneath the post. Like, click the button. Increase number 1 and change to heart
 You can click it again. Decrease the number by 1 and change to a blank Heart

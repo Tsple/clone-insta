@@ -21,7 +21,6 @@ loginEmail.addEventListener("keyup", () => {
 loginPassword.addEventListener("keyup", () => {
   const loginEmail = document.getElementById("loginEmail").value;
   const loginPassword = document.getElementById("loginPassword").value;
-  console.log(loginPassword);
   if (loginEmail && loginPassword.length >= 5) {
     onActiveBtn();
   }
@@ -33,13 +32,11 @@ loginPassword.addEventListener("keyup", () => {
 function onActiveBtn() {
   loginBtn.style.backgroundColor = deepBlue;
   loginBtn.disabled = false;
-  console.log("버튼 활성화");
 }
 
 function unActiveBtn() {
-  loginBtn.style.backgroundColor = skyBlue;
+  loginBtn.style.z = skyBlue;
   loginBtn.disabled = true;
-  console.log("버튼 비활성화");
 }
 
 loginBtn.addEventListener("click", () => {

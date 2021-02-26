@@ -74,7 +74,7 @@ body {
 .main {
   height: 100%;
   display: flex;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .mainWrapper {
@@ -87,7 +87,7 @@ body {
 
 .feeds {
   padding-top: 80px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   width: 600px;
 }
 
@@ -258,7 +258,7 @@ img {
   padding: 80px 20px 0px 20px;
   width: 350px;
   height: 800px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .main-right {
@@ -429,6 +429,14 @@ img {
 #heartBtn {
   display: flex;
   flex-direction: flex-end;
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+#likeBtn {
+  margin: 0px;
+  padding: 0px;
   outline: none;
   background: transparent;
   border: none;

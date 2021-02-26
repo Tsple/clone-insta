@@ -4,7 +4,8 @@ const deleteBtn = document.getElementById("deleteBtn");
 const comments = document.querySelector(".comments");
 const heartBtn = document.getElementById("heartBtn");
 const feeds = document.querySelectorAll(".feeds");
-const moreBtn = document.getElementById(".moreBtn");
+const moreBtn = document.getElementById("moreBtn");
+const moreSentence = document.querySelector(".moreSentence");
 
 const deepBlue = "#0095F6"; // 버튼 활성화 색상
 const skyBlue = "#b2dffc"; // 버튼 비활성화 색상
@@ -109,6 +110,11 @@ commentInput.addEventListener("keyup", () => {
   if (!commentInput) {
     unActiveBtn();
   }
+});
+
+moreBtn.addEventListener("click", () => {
+  console.log("click");
+  moreSentence.visibility = visible;
 });
 
 function onActiveBtn() {

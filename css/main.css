@@ -74,7 +74,7 @@ body {
 .main {
   height: 100%;
   display: flex;
-  background-color: whitesmoke;
+  background-color: #FAFAFA;
 }
 
 .mainWrapper {
@@ -87,7 +87,7 @@ body {
 
 .feeds {
   padding-top: 80px;
-  background-color: whitesmoke;
+  background-color: #FAFAFA;
   width: 600px;
 }
 
@@ -258,7 +258,7 @@ img {
   padding: 80px 20px 0px 20px;
   width: 350px;
   height: 800px;
-  background-color: whitesmoke;
+  background-color: #FAFAFA;
 }
 
 .main-right {
@@ -445,12 +445,12 @@ img {
 @media screen and (max-width: 1100px) {
   .main-right {
     display: none;
-    background-color: whitesmoke;
+    background-color: #fafafa;
   }
   .feeds {
     margin: 0px auto;
   }
   .mainWrapper {
-    background-color: whitesmoke;
+    background-color: #fafafa;
   }
 }
